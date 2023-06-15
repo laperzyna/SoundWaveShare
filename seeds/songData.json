@@ -1,0 +1,50 @@
+[
+    {
+      "id": 1,
+      "song_name": "Naked",
+      "artist_name": "Doja Cat",
+      "url": "https://res.cloudinary.com/deubd4mph/image/upload/v1684261004/Planet_Her__28cover_art_29_iz28rj.webp"
+    },
+    {
+      "id": 2,
+      "song_name": "That's How You Feel",
+      "artist_name": "Drake",
+      "url": "https://res.cloudinary.com/deubd4mph/image/upload/v1684261123/Scorpion_by_Drake_o671qd.jpg"
+    },
+    {
+        "id": 3,
+        "song_name": "Is There Someone Else?",
+        "artist_name": "The Weekend",
+        "url": "https://res.cloudinary.com/deubd4mph/image/upload/v1684261246/The_Weeknd_-_Dawn_FM_zmltrq.png"
+    },
+    {
+      "id": 4,
+      "song_name": "Redbone",
+      "artist_name": "Childish Gambino",
+      "url": "https://res.cloudinary.com/deubd4mph/image/upload/v1684261353/Childish_Gambino_-_Awaken__My_Love_yivikc.png"
+    },
+    {
+        "id": 5,
+        "song_name": "Come Down",
+        "artist_name": "Anderson .Paak",
+        "url": "https://res.cloudinary.com/deubd4mph/image/upload/v1684261490/ab67616d0000b2735e149abf2d24cd29e40c6b84_pe1ozd.jpg"
+    },
+    {
+        "id": 6,
+        "song_name": "DOGTOOTH",
+        "artist_name": "Tyler, the Creator",
+        "url": "https://res.cloudinary.com/deubd4mph/image/upload/v1684261579/635459-dogtooth_1004_h31gyo.jpg"
+    },
+    {
+        "id": 7,
+        "song_name": "Me Porto Bonito",
+        "artist_name": "Bad Bunny",
+        "url": "https://res.cloudinary.com/deubd4mph/image/upload/v1657315447/figJam_songs/Bad-Bunny-Un-Verano-Sin-Ti_jedlod.jpg"
+    },
+    {
+        "id": 8,
+        "song_name": "MOTOMAMI",
+        "artist_name": "Rosalia",
+        "url": "https://res.cloudinary.com/deubd4mph/image/upload/v1684259800/MTMM-Cover-10x10-1643925302-1000x1000-1647466379_dkito7.jpg"
+    }
+  ]

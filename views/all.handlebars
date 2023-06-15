@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SoundWaveShare</title>
+  <link rel="stylesheet" href="styles/all.css">
+  <link rel="stylesheet" href="styles/jass.css">
+</head>
+
+<div class="menu-container">
+  <div class="card-header col-md-12 text-center">
+    <h2>
+      SWS
+    </h2>
+    <text> New Post</text>
+    <br>
+    <br>
+  </div>
+  <!-- This is the form for adding a new song -->
+  <div class="add-song-container">
+    <h2>
+      Share Your Favorite Song!
+    </h2>
+    <div class="song-photo">
+    </div>
+    <form class="song-form">
+      <label for="song_name">
+        Song Name:
+      </label>
+      <br>
+      <textarea id="song_name" name="song_name" rows="2" cols="30" required></textarea>
+      <br>
+      <label for="artist_name">
+        Artist Name:
+      </label>
+      <br>
+      <textarea id="artist_name" name="artist_name" rows="2" cols="30" required></textarea>
+      <br>
+      <label for="comment">
+        Comment:
+      </label>
+      <br>
+      <textarea id="comment_text" name="comment" rows="5" cols="30" required></textarea>
+      <br>
+      <br>
+      <label for="song_photo">
+        Song Photo:
+      </label>
+      <br>
+      <br>
+      <button id="upload_widget" class="cloudinary-button">Upload Song Photo</button>
+      <br>
+      <br>
+      <button class="sub-button" id="submitButton" type="submit" value="Submit">
+        Submit
+      </button>
+    </form>
+
+  </div>
+</div>
+
+<script src="./scripts/post.js"></script>

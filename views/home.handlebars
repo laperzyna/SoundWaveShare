@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<main>
+  <div>
+    {{!-- Render Current Posts --}}
+    {{#if songs.length}}
+    <div class="text-center song-list">
+      <br>
+      <h2>Current Posts:</h2>
+      <br>
+      {{#each songs as |song|}}
+      <div class="row mb-2 song-list outline songcard">
+        <div class="col-md-8" id="bulk">
+          <h5>"{{song_name}}"</h5>
+          <div> by
+            <h3>{{artist_name}}</h3>
+          </div>
+          {{!-- Include Videos --}}
+          <img src={{ url }}>
+          <div class="song_content">
+            <iframe id="video_{{song.id}}" class="video_iframe" src="{{ song.video_link }}" title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <button class="btn btn-sm btn-danger" data-id="{{song.id}}" onclick="playVideo({{song.id}})">&#127911;
+            Listen</button>
+          <br><br>
+          <div class="container comment-box">
+            {{!-- Render comments --}}
+            <p3>Comments:</p3>
+            <br>
+            {{#each comments as |comment| }}
+            <p>"{{comment.comment_text}}"</p>
+            {{/each}}
+          </div>
+        </div>
+      </div>
+      {{/each}}
+    </div>
+    {{/if}}
+  </div>
+  {{!-- JS to add the ability to play the video when the listen button is clicked --}}
+  <script>
+    function playVideo(id) {
+      var video = document.getElementById("video_" + id);
+      video.src = video.src + "?autoplay=1";
+    }
+  </script>
+</main>
+
+</html>

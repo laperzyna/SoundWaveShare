@@ -1,0 +1,26 @@
+<div>
+  {{!-- Render Song List to show current posted songs --}}
+  {{#if songs.length}}
+  <div class="text-center song-list">
+    <h2>Current Song List:</h2>
+    {{#each songs as |song|}}
+    <button class="btn btn-block song-card" data-id="{{song.id}}" onclick="navigateToHomePage()">
+      <div class="row mb-2 song-list outline songcard">
+        <div class="col-md-8">
+          <h5 class="text-center">{{song.song_name}}</h5>
+          <div>by
+            <h3 class="text-center">{{song.artist_name}}</h3>
+          </div>
+        </div>
+      </div>
+    </button>
+    {{/each}}
+  </div>
+  {{/if}}
+</div>
+{{!-- Navigate back to home page when clicked to show post --}}
+<script>
+  function navigateToHomePage() {
+    window.location.href = "/";
+  }
+</script>

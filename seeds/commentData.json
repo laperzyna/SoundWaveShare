@@ -1,0 +1,47 @@
+[
+    {
+      "song_id": 1,
+      "comment_text": "I LOVE DOJA CAT!"
+    },
+    {
+      "song_id": 1,
+      "comment_text": "YESSS!!"
+    },
+    {
+      "song_id": 2,
+      "comment_text": "I'm a drake stan!"
+    },
+    {
+      "song_id": 2,
+      "comment_text": "I LOVE DRAKE!"
+    },
+    {
+        "song_id": 3,
+        "comment_text": "The Weekend always got me in my feels"
+      },
+    {
+      "song_id": 4,
+      "comment_text": "Literally the best song of 2017!"
+    },
+    {
+      "song_id": 4,
+      "comment_text": "This song has nostalgia!"
+    },
+    {
+        "song_id": 5,
+        "comment_text": "Wooo!! Anderson Paak got it!"
+    },
+
+    {
+      "song_id": 6,
+      "comment_text": "TYLERRRRR"
+    },
+    {
+      "song_id": 7,
+      "comment_text": "The live version of this song is AMAZING!"
+    },
+    {
+        "song_id": 8,
+        "comment_text": "MOTOMAMI has me feeling myself!!"
+      }
+  ]

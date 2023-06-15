@@ -1,0 +1,107 @@
+body {
+  background-color: #f8f8f8;
+  color: #333333;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+.song-form {
+  text-align: center;
+}
+
+.cloudinary-button {
+  background-color: #1e3a5a;
+  font-family: 'Courier New', Courier, monospace;
+  color: #ffffff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+.menu-container {
+  text-align: center;
+  background-color: #9db4d4;
+  border: 2px solid #1e3a5a;
+  padding: 2%;
+  margin-bottom: 2%;
+}
+
+main {
+  display: block;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+a {
+  background-color: transparent;
+  color: #1e3a5a;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #065b83;
+  text-decoration: underline;
+}
+
+h2 {
+  font-size: 2rem;
+  text-align: center;
+  color: #333333;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+h3 {
+  font-size: 1.75rem;
+  color: #333333;
+}
+
+h4 {
+  font-size: 1.5rem;
+  color: #333333;
+}
+
+h5 {
+  font-size: 1.25rem;
+  color: #333333;
+}
+
+h6 {
+  font-size: 1rem;
+  color: #333333;
+}
+
+p {
+  font-size: 1.1rem;
+  margin: 0 0 1rem;
+  line-height: 1.5;
+}
+
+label {
+  color: #333333;
+  font-family: 'Andale Mono', monospace;
+}
+
+.add-song-container {
+  text-decoration: overline;
+  color: #333333;
+}
+
+#submitButton {
+  transition-duration: 0.4s;
+  font-size: 20px;
+  padding: 8px 16px;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #1e3a5a;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+}
+
+#submitButton:hover {
+  background-color: #065b83;
+}
